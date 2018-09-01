@@ -1,0 +1,28 @@
+---
+# title: "Inverness"
+# author: "Richard Piper"
+# date: "25/08/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r echo=FALSE}
+
+library(RJSONIO)
+json_data <- fromJSON("http://www.bom.gov.au/fwo/IDN60801/IDN60801.94735.json")
+# json_data
+# json_data$observations$data[][[1]]$wind_spd_kmh
+# json_data$observations$data[][[1]]$rain_trace
+# json_data$observations$data[][[1]]$air_temp
+
+```
+
+### Weather `r json_data$observations$data[[1]]$local_date_time`
+
+At the Taralga weather station as of 0900 am current temperature is `r json_data$observations$data[][[1]]$air_temp` degrees, the current windspeed is `r json_data$observations$data[][[1]]$wind_spd_kmh` km per hour and the rainfall in the last 24 h is `r json_data$observations$data[][[1]]$rain_trace` ml.
+
