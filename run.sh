@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Rscript -e "rmarkdown::render('TaralgaWeatherNow.Rmd')"
+Rscript -e "rmarkdown::render('./TaralgaWeatherNow.Rmd')"
 
 # open TaralgaWeatherNow.html
 
