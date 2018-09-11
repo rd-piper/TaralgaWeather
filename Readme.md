@@ -1,6 +1,6 @@
 ## Summary of Project
 Describe the files in each directory in the Readme.md file.
-To try the project, download and unload the zip file of the project and then load the TaralgaWeather.Rproj file into RStudio. 
+To try the project, download and unload the zip file of the project and then load the TaralgaWeather.Rproj file into [RStudio](http://www.rstudio.com). The "cheat sheet" for RMarkdown can be found [here](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) (from the URL it seems that they are using Wordpress to host their web site). RStudio contains a Git client, but this may not work on the Intranet.   
 
 ### References relevant to Reproducible Research
 
