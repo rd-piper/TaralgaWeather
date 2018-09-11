@@ -1,8 +1,8 @@
 ## Summary of Project
 Describe the files in each directory in the Readme.md file.
-To try the project, download and unload the zip file of the project and then load the TaralgaWeather.Rproj file into [RStudio](http://www.rstudio.com). The "cheat sheet" for RMarkdown can be found [here](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) (from the URL it seems that they are using Wordpress to host their web site). RStudio contains a Git client, but this may not work on the Intranet.   
+To try the project, download and unload the zip file of the project and then load the TaralgaWeather.Rproj file into [RStudio](http://www.rstudio.com). The "cheat sheet" for RMarkdown can be found [here](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) (from the URL it seems that they are using Wordpress to host their web site). RStudio contains a Git client, but this may not work on the Intranet. Marwick et al. (2018) describe how a collaborative "reproducible" project should be structured and provide a number of links to example [repositories](https://github.com/cboettig/nonparametric-bayes).
 
-### References relevant to Reproducible Research
+### References relevant to Reproducible Research [(see Paperphile)](https://paperpile.com/shared/jfeBdB)
 
 * Ball, Philip. “High-Profile Journals Put to Reproducibility Test.” Nature, Nature Publishing Group, Aug. 2018, doi:10.1038/d41586-018-06075-z.
 * Camerer, Colin F., et al. “Evaluating the Replicability of Social Science Experiments in Nature and Science between 2010 and 2015.” Nature Human Behaviour, Nature Publishing Group, Aug. 2018, p. 1.
